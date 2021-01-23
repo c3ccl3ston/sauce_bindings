@@ -24,7 +24,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions(ChromeOptions options) instead
+     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions.chrome(options) instead
      */
     @Deprecated
     public SauceOptions(ChromeOptions options) {
@@ -32,7 +32,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions(EdgeOptions options) instead
+     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions.edge(options) instead
      */
     @Deprecated
     public SauceOptions(EdgeOptions options) {
@@ -40,7 +40,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions(FirefoxOptions options) instead
+     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions.firefox(options) instead
      */
     @Deprecated
     public SauceOptions(FirefoxOptions options) {
@@ -48,7 +48,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions(InternetExplorerOptions options) instead
+     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions.ie(options) instead
      */
     @Deprecated
     public SauceOptions(InternetExplorerOptions options) {
@@ -56,7 +56,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions(SafariOptions options) instead
+     * @deprecated Use com.saucelabs.saucebindings.options.SauceOptions.safari(options) instead
      */
     @Deprecated
     public SauceOptions(SafariOptions options) {
@@ -81,7 +81,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param avoidProxy
      * @return
      */
@@ -91,7 +91,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param build
      * @return
      */
@@ -101,7 +101,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param capturePerformance
      * @return
      */
@@ -111,7 +111,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param chromedriverVersion
      * @return
      */
@@ -121,7 +121,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param commandTimeout
      * @return
      */
@@ -131,7 +131,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param customData
      * @return
      */
@@ -141,7 +141,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param extendedDebugging
      * @return
      */
@@ -151,7 +151,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param idleTimeout
      * @return
      */
@@ -161,7 +161,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param iedriverVersion
      * @return
      */
@@ -171,7 +171,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param maxDuration
      * @return
      */
@@ -181,7 +181,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param name
      * @return
      */
@@ -191,7 +191,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param parentTunnel
      * @return
      */
@@ -201,7 +201,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param prerun
      * @return
      */
@@ -211,7 +211,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param prerunUrl
      * @return
      */
@@ -221,7 +221,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param priority
      * @return
      */
@@ -231,7 +231,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param jobVisibility
      * @return
      */
@@ -241,7 +241,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param recordLogs
      * @return
      */
@@ -251,7 +251,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param recordScreenshots
      * @return
      */
@@ -261,7 +261,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param recordVideo
      * @return
      */
@@ -271,7 +271,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param screenResolution
      * @return
      */
@@ -281,7 +281,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param seleniumVersion
      * @return
      */
@@ -291,7 +291,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param tags
      * @return
      */
@@ -301,7 +301,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param timeZone
      * @return
      */
@@ -311,7 +311,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param tunnelIdentifier
      * @return
      */
@@ -321,7 +321,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @param videoUploadOnPass
      * @return
      */
@@ -331,7 +331,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -340,7 +340,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -349,7 +349,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -358,7 +358,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -367,7 +367,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -376,7 +376,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -385,7 +385,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -394,7 +394,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -403,7 +403,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -412,7 +412,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -421,7 +421,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -430,7 +430,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -439,7 +439,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -448,7 +448,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -457,7 +457,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -466,7 +466,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -475,7 +475,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -484,7 +484,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -493,7 +493,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -502,7 +502,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -511,7 +511,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -520,7 +520,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -529,7 +529,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -538,7 +538,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated
@@ -547,7 +547,7 @@ public class SauceOptions extends com.saucelabs.saucebindings.options.SauceOptio
     }
 
     /**
-     * @deprecated Use with sauce() instead
+     * @deprecated Use with sauce() or even better, use the new Builder Pattern
      * @return
      */
     @Deprecated

@@ -1,5 +1,6 @@
 package com.saucelabs.saucebindings;
 
+import com.saucelabs.saucebindings.options.BaseConfigurations;
 import com.saucelabs.saucebindings.options.SauceOptions;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,6 +20,10 @@ public class SauceSession {
 
     public SauceSession() {
         this(new SauceOptions());
+    }
+
+    public SauceSession(BaseConfigurations configs) {
+        this(configs.build());
     }
 
     public SauceSession(SauceOptions options) {
